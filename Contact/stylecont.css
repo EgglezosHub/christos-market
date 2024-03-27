@@ -5,7 +5,8 @@ body{
     font-family: Poppins;
     font-size: 12px;
     position: relative;
-    background-image: url(/Family-Website-TourismAdsite/images/img2.jpg);
+    background-color: hsla(234, 86%, 17%, 0.868);
+    /*background-image: url(/Family-Website-TourismAdsite/images/img4.jpeg);*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -37,6 +38,45 @@ main .Contact{
 
 }
 main .Address{
+    padding-top: 20px;
     text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+main .Phone{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+main .Email{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+main .Hours{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.3em;
 }
 
+main .discr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+main .clossing{
+    font-size: 1.7em;
+    text-align: center;
+    padding-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
