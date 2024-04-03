@@ -5,8 +5,7 @@ body{
     font-family: Poppins;
     font-size: 12px;
     position: relative;
-    background-color: hsla(234, 86%, 17%, 0.868);
-    /*background-image: url(/images/Pictures\ of\ Molivos\ —\ Molivos\ Info\ -\ Opera\ 3_29_2024\ 12_16_20\ PM.png);*/
+    background-image: url(/images/n1.jpg);
     background-position: right;
     background-size: cover;
     background-attachment: fixed;
@@ -28,6 +27,23 @@ header{
 }
 header a{
     color: #eee;
+    font-weight: bolder;
     margin-right: 40px;
 }
 
+
+.main{
+    display: block;
+    position: relative;
+    
+}
+
+.main h1{
+    color: white;
+    border: 2px solid white;
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+    text-align: center;
+    font-size: 3em;
+}
