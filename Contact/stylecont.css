@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     margin: 0;
-    color: #eee;
+    color: #ffffff;
     font-family: Poppins;
     font-size: 12px;
     position: relative;
-    /*background-color: hsla(234, 86%, 17%, 0.868);*/
-    background-image: url(/images/Pictures\ of\ Molivos\ —\ Molivos\ Info\ -\ Opera\ 3_29_2024\ 12_16_20\ PM.png);
+    /*background-color: hsl(0, 0%, 95%);*/
+    background-image: url(/images/n1.jpg);
     background-position: right;
     background-size: cover;
     background-attachment: fixed;
@@ -26,14 +26,39 @@ header{
     padding-bottom: 20px;
 }
 header a{
-    color: #eee;
+    color: #ffffffeb;
+    font-weight: bolder;
     margin-right: 40px;
+
 }
-main{
+.topcontent{
     position: relative;
+    display: block;
+
 }
 
+main .img1{
+    display: block;
+    width: 95%;
+    max-width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+main .content{
+    position: absolute;
+    width: 80%;
+    max-width: 550px;
+    top: 350px; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Centers the text */
+}
+
+
 main .Contact{
+    color: white;
     text-align: center;
     font-size: 1.7em;
     font-weight: bold;
@@ -42,6 +67,7 @@ main .Contact{
 
 }
 main .contdiscr{
+    color: white;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -50,6 +76,7 @@ main .contdiscr{
     line-height: 1.1em;
 }
 main .Address{
+    color: white;
     margin-top: 40px;
     text-align: center;
     font-size: 1.7em;
