@@ -9,7 +9,7 @@ body{
     background-image: url(/images/n1.jpg);
     background-position: right;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
 a{
     text-decoration: none;
@@ -41,7 +41,7 @@ main .img1{
     display: block;
     width: 95%;
     max-width: 550px;
-    height: 300px;
+    height: 340px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 45px;
@@ -50,8 +50,8 @@ main .img1{
 main .content{
     position: absolute;
     width: 80%;
-    max-width: 550px;
-    top: 350px; /* Adjust as needed */
+    max-width: 450px;
+    top: 400px; /* Adjust as needed */
     left: 50%; /* Adjust as needed */
     transform: translate(-50%, -50%); /* Centers the text */
 }
@@ -213,6 +213,7 @@ main .clossing{
     padding-top:30px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
     padding-left: 2px;
 }
