@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{         /* the * means ALL ELEMENTS */
+    box-sizing: border-box;     /* by using this we can disregard any padding & border*/
+}
 body{
     margin: 0;
     color: #eee;
@@ -46,4 +49,54 @@ header a{
     max-width: 400px;
     text-align: center;
     font-size: 3em;
+}
+
+.main .container{
+    display: flex;
+    border: 5px solid;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    border: 1px solid;
+    width: 70%;
+    overflow: auto;
+}
+#box2{
+    background-image: url(/images/n1.jpg);
+    width: 25vw;
+    height: 20vw;
+    min-width: 200px;
+    min-height: 160px;
+}
+#box3{
+    background-color: rgb(93, 95, 179);
+    width: 30%;
+}
+#box4{
+    width: 70%;
+    overflow: auto;
+
+}
+#box5{
+    align-self:self-start;
+    width: 70%;
+}
+#box6{
+    background-color: rgb(153, 179, 93);
+    width: 30%;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.descr{
+    font-size: 1em;
 }
