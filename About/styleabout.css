@@ -53,50 +53,63 @@ header a{
 
 .main .container{
     display: flex;
-    border: 5px solid;
+    /*border: 2px solid;*/
     height: 90vh;
     flex-wrap: wrap;
-    align-self: center;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 .box {
     width: 150px;
     height: 150px;
     text-align: center;
+    align-self: center;
     border-radius: 15px;
 }
 #box1{
-    border: 1px solid;
-    width: 70%;
+    /*border: 1px solid;*/
+    width: 55%;
     overflow: auto;
 }
 #box2{
-    background-image: url(/images/n1.jpg);
-    width: 25vw;
+    background-image: url(/images/cm.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 150px;
+    /*width: 25vw;
     height: 20vw;
-    min-width: 200px;
-    min-height: 160px;
+    min-width: 160px;
+    min-height: 120px;*/
+    width: 45%;
 }
 #box3{
     background-color: rgb(93, 95, 179);
-    width: 30%;
+    /*width: 25vw;
+    height: 20vw;
+    min-width: 160px;
+    min-height: 120px;*/
+    width: 45%;
 }
 #box4{
-    width: 70%;
+    width: 55%;
     overflow: auto;
 
 }
 #box5{
-    align-self:self-start;
-    width: 70%;
+    width: 55%;
+    overflow: auto;
 }
 #box6{
     background-color: rgb(153, 179, 93);
-    width: 30%;
+    width: 45%;
 }
 .title{
     font-size: 2em;
-    font-weight: bold;
+    font-weight:bold;
 }
 .descr{
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
